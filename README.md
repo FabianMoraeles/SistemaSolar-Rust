@@ -113,6 +113,8 @@ Salir	ESC
 
 He subido un video mostrando el funcionamiento completo del sistema, incluyendo:
 
+https://youtu.be/8PoG0vLmino
+
 movimiento de la cámara
 
 orbitas
@@ -171,4 +173,4 @@ Soporte para mallas complejas además de esferas
 # 📜 Licencia
 
 Este proyecto es únicamente para fines académicos.
-Podés modificarlo libremente para tus cursos o aprendizaje personal.
+Podés modificarlo libremente para tus cursos o aprendizaje personal.    
