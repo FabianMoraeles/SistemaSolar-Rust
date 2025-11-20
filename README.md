@@ -121,9 +121,6 @@ warp jump
 
 estrellas y skybox
 
-▶ https://youtu.be/Q3tDOHBYDII?si=d5TXSKwWYs8lBfHz
-
-(El video se reproduce en el README de GitHub automáticamente cuando lo abrís.)
 
 🔧 Cómo ejecutar el proyecto
 
