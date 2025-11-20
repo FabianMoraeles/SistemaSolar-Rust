@@ -8,8 +8,8 @@ Incluye cámara 3D controlable, planetas orbitando, un skybox de estrellas, una 
 Todo corre sin usar OpenGL / Vulkan.
 El dibujo es pixel por pixel en un framebuffer propio.
 
-🚀 Características principales
-✔ Renderizador por software
+# 🚀 Características principales
+## ✔ Renderizador por software
 
 Framebuffer propio
 
@@ -21,7 +21,7 @@ Z-buffer básico
 
 Pipeline de renderizado configurable
 
-✔ Cámara 3D tipo “freecam”
+## ✔ Cámara 3D tipo “freecam”
 
 Movimiento con WASD + mouse
 
@@ -31,7 +31,7 @@ Subir y bajar (SPACE / CTRL)
 
 Movimiento totalmente libre en 3D
 
-✔ Nave en primera persona
+## ✔ Nave en primera persona
 
 Modelo .obj cargado desde assets/models/ship.obj
 
@@ -39,7 +39,7 @@ Sigue la orientación de la cámara
 
 Se renderiza como parte del HUD 3D
 
-✔ Sistema Solar propio
+## ✔ Sistema Solar propio
 
 Sol en el centro (rotación lenta)
 
@@ -49,7 +49,7 @@ Rotación propia de cada planeta
 
 Malla de esfera low-poly para representar los cuerpos celestes
 
-✔ Warp Jump (teletransporte animado)
+## ✔ Warp Jump (teletransporte animado)
 
 Tecla 1, 2 o 3
 
@@ -57,7 +57,7 @@ Cámara acelera hacia un planeta seleccionado
 
 Movimiento interpolado suavemente
 
-✔ Skybox de estrellas
+## ✔ Skybox de estrellas
 
 Generación procedural de estrellas
 
@@ -67,13 +67,13 @@ Rotan con la cámara pero no cambian de posición relativa
 
 Se dibujan directamente en el framebuffer para mayor claridad
 
-✔ Colisiones básicas
+## ✔ Colisiones básicas
 
 La cámara no puede atravesar planetas
 
 Se ajusta automáticamente la posición si entra en el radio prohibido
 
-📂 Estructura del proyecto
+# 📂 Estructura del proyecto
 SistemaSolar/
 ├── Cargo.toml
 ├── README.md
@@ -96,7 +96,7 @@ SistemaSolar/
 
 Cada módulo está separado para que sea fácil trabajar y extender el proyecto.
 
-🎮 Controles
+# 🎮 Controles
 Acción	Tecla
 Mover adelante/atrás	W / S
 Mover izquierda/derecha	A / D
@@ -107,7 +107,9 @@ Warp al planeta 1	1
 Warp al planeta 2	2
 Warp al planeta 3	3
 Salir	ESC
-🎥 Video de demostración
+
+
+# 🎥 Video de demostración
 
 He subido un video mostrando el funcionamiento completo del sistema, incluyendo:
 
@@ -122,7 +124,7 @@ warp jump
 estrellas y skybox
 
 
-🔧 Cómo ejecutar el proyecto
+# 🔧 Cómo ejecutar el proyecto
 
 Asegurate de tener Rust instalado:
 
@@ -136,7 +138,7 @@ cargo run
 
 La ventana abrirá a 1280×720, pero podés cambiarlo desde constantes en main.rs.
 
-📝 Notas y limitaciones actuales
+# 📝 Notas y limitaciones actuales
 
 Los planetas solo usan color sólido por ahora (no se agregaron texturas).
 
@@ -148,7 +150,7 @@ La simulación es inventada, no corresponde a proporciones reales.
 
 Aun así, el sistema funciona establemente sobre 30 FPS.
 
-🔮 Posibles mejoras futuras
+# 🔮 Posibles mejoras futuras
 
 Texturas UV para planetas
 
@@ -166,7 +168,7 @@ Shader de iluminación per-pixel (Lambert/Phong)
 
 Soporte para mallas complejas además de esferas
 
-📜 Licencia
+# 📜 Licencia
 
 Este proyecto es únicamente para fines académicos.
 Podés modificarlo libremente para tus cursos o aprendizaje personal.
